@@ -11,9 +11,8 @@ Aplicação disponível em: TO-DO
 
 ## Requisitos
 
-- Local (sem docker)
-    - node (versão 16.10.0 ou superiores)
-    - yarn (versão 1.22.18)
+- node (versão 16.10.0 ou superiores)
+- yarn (versão 1.22.18)
 
 ## Instalação e Execução
 
@@ -27,8 +26,6 @@ Aplicação disponível em: TO-DO
 
 3. Crie um arquivo .env(variaveis de exemplo no .env.example deste repositório) adicionando as URL para os serviços
  UserApi e EquipamentApi.
-
-### Local (Sem docker)
 
 4. Instale as dependências
         
