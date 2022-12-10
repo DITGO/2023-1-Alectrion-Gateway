@@ -15,8 +15,6 @@ Aplicação disponível em: TO-DO
     - node (versão 16.10.0 ou superiores)
     - yarn (versão 1.22.18)
 
-- Docker
-    - Docker e docker-compose
 ## Instalação e Execução
 
 1. Clone o projeto 
@@ -41,17 +39,6 @@ Aplicação disponível em: TO-DO
 7. Execute o projeto
 
 > yarn dev
-
-
-### Docker
-
-4. Gerar imagem
-
-> docker build -t alectrion-gateway .
-
-6. Rodar container
-    
-> docker run --env-file .env -p 4000:4000 -d --name alectrion-gateway-container alectrion-gateway
 
 A aplicação será iniciada na porta 4000.
 
