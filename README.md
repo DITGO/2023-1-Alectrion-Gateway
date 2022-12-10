@@ -4,73 +4,80 @@
 
 ## Sobre
 
-Alectrion é um sistema de controle e gerenciamento de inventário e ordens de serviços de TI.
+Alectrion é um sistema de gerenciamento de inventário, ordens de serviços e movimentações de equipamentos de informática,
+feito para atender as demandas da DSTI (Divisão de Suporte Técnico Interno) da Polícia Civil do estado de Goiás.
 
-Aplicação disponível em: [link da aplicação](https://alectrion-front.herokuapp.com/)
+Aplicação disponível em: TO-DO
 
 ## Requisitos
-- Local(sem docker)
-    - node (versão 16.10.0 ou superiores)
-    - yarn (versão 1.22.18)
-- Docker
-    - Docker e docker-compose
+
+- node (versão 16.10.0 ou superiores)
+- yarn (versão 1.22.18)
+
 ## Instalação e Execução
 
 1. Clone o projeto 
 
-    > git clone https://github.com/fga-eps-mds/2022-1-Alectrion-Gateway
+> git clone https://github.com/fga-eps-mds/2022-2-Alectrion-Gateway
 
 2. Entre na pasta do projeto
 
-    > cd 2022-1-Alectrion-Gateway
+> cd 2022-2-Alectrion-Gateway
 
 3. Crie um arquivo .env(variaveis de exemplo no .env.example deste repositório) adicionando as URL para os serviços
  UserApi e EquipamentApi.
 
-### Local(Sem docker)
-
-4. Instale as depencencias
+4. Instale as dependências
         
-    > yarn
+> yarn
 
 6. Crie um arquivo .env da mesma forma do arquivo .env.example
 
 7. Execute o projeto
 
-    > yarn dev
+> yarn dev
 
-
-### Docker
-
-4. Gerar imagem
-
-    > docker build -t alectrion-gateway .
-
-6. Rodar container
-    
-    > docker run --env-file .env -p 4000:4000 -d --name alectrion-gateway-container alectrion-gateway
-
-A aplicação será iniciada na porta 4000
+A aplicação será iniciada na porta 4000.
 
 ## Contribuir
-Para contribuir com esse projeto é importante seguir nosso [Guia de Contribuição](docs\documentation\Documentos\guia-contribuicao.md) do repositório e seguir nossa [Política de Branches](docs\documentation\Documentos\politicas-branch.md).
+Para contribuir com esse projeto é importante seguir nosso [Guia de Contribuição](https://fga-eps-mds.github.io/2022-2-Alectrion-DOC/#/./Documentos/guia-contribuicao.md) do repositório e seguir nossa [Política de Branches](https://fga-eps-mds.github.io/2022-2-Alectrion-DOC/#/./Documentos/Documentos/politicas-branch.md).
 
 ## Ambientes
 
-- [Pages](https://fga-eps-mds.github.io/2022-1-Alectrion-DOC/)
+- [Pages](https://fga-eps-mds.github.io/2022-2-Alectrion-DOC/)
 
-- [Documentação](https://github.com/fga-eps-mds/2022-1-Alectrion-DOC)
+- [Documentação](https://github.com/fga-eps-mds/2022-2-Alectrion-DOC)
 
-- [Front-End](https://github.com/fga-eps-mds/2022-1-Alectrion-FrontEnd)
+- [Front-End](https://github.com/fga-eps-mds/2022-2-Alectrion-FrontEnd)
 
-- [Back-End: UserAPI](https://github.com/fga-eps-mds/2022-1-Alectrion-UserAPI)
+- [Back-End: UserAPI](https://github.com/fga-eps-mds/2022-2-Alectrion-UserAPI)
   
-- [Back-End: EquipamentAPI](https://github.com/fga-eps-mds/2022-1-Alectrion-EquipamentApi) 
+- [Back-End: EquipamentAPI](https://github.com/fga-eps-mds/2022-2-Alectrion-EquipamentApi) 
 
-- [Back-End: GateWay](https://github.com/fga-eps-mds/2022-1-Alectrion-Gateway) 
+- [Back-End: GateWay](https://github.com/fga-eps-mds/2022-2-Alectrion-Gateway) 
 
 
 ## Integrantes
+
+### 2022-2
+
+| Disciplina | Matricula | Nome | Github | E-mail |
+|------------|-----------|------|--------|--------|
+|EPS|170141161|Erick Giffoni|[ErickGiffoni](https://github.com/ErickGiffoni)|giffoni.erick@gmail.com|
+|EPS|180020251|João Vitor Lopes de Farias|[JoaoVitorFarias](https://github.com/JoaoVitorFarias)|jvlopesfarias@gmail.com|
+|EPS|180030272|Antonio Ruan Moura Barreto|[RuanMoura](https://github.com/RuanMoura)|ruanmoura13@outlook.com|
+|EPS|170114040|Samuel de Souza Buters Pereira|[SamButers](https://github.com/SamButers)|sambuters@gmail.com|
+|EPS|180011961|Aline Helena Lermen|[AlineLermen](https://github.com/AlineLermen)|aline.helena.lermen@gmail.com|
+|EPS|180096991|Álvaro Leles Guimarães |[AlvaroLeles](https://github.com/AlvaroLeles)|alvaro.leles@hotmail.com|
+|MDS|190085584|Carlos Eduardo Mendes de Mesquita|[CarlosEduardoMendesdeMesquita](https://github.com/CarlosEduardoMendesdeMesquita)|cmendesdemesquita@gmail.com|
+|MDS|200073184|Mateus Fidelis Marinho Maia|[MatsFidelis](https://github.com/MatsFidelis)|mateusfidelis.43@gmail.com|
+|MDS|170154131|Pedro José DIas de Oliveira Campos|[pedrogot11](https://github.com/pedrogot11)|170154131@aluno.unb.br|
+|MDS|211029666|Matheus Henrique dos Santos|[mathonaut](https://github.com/mathonaut)|matheushenriquep285@gmail.com|
+|MDS|180114964|Adriano Fonseca|[dridr1](https://github.com/dridr1)|adriano.fcc@gmail.com|
+|MDS|202043307|Uires Carlos|[galaxia1000](https://github.com/galaxia1000)|uires.urs@gmail.com|
+|MDS|190101091|Yago Amin Santos|[Yagoas](https://github.com/Yagoas)|190101091@aluno.unb.br|
+
+### 2022-1
 
 | Disciplina | Matricula | Nome | Github | E-mail |
 |------------|-----------|------|--------|--------|
