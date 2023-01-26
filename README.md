@@ -10,10 +10,12 @@ feito para atender as demandas da DSTI (Divisão de Suporte Técnico Interno) da
 Aplicação disponível em: https://alectrion-2022.herokuapp.com
 
 ## Requisitos
-
+### Local
 - node (versão 16.10.0 ou superiores)
 - yarn (versão 1.22.18)
-
+### Docker
+- Docker
+- Docker-compose
 ## Instalação e Execução
 
 1. Clone o projeto 
@@ -27,18 +29,27 @@ Aplicação disponível em: https://alectrion-2022.herokuapp.com
 3. Crie um arquivo .env(variaveis de exemplo no .env.example deste repositório) adicionando as URL para os serviços
  UserApi e EquipamentApi.
 
+### Localmente
 4. Instale as dependências
         
 > yarn
 
-6. Crie um arquivo .env da mesma forma do arquivo .env.example
-
-7. Execute o projeto
+5. Execute o projeto
 
 > yarn dev
 
-A aplicação será iniciada na porta 4000.
+### Docker
+4. Crie a network ```alectrion-network``` caso ela não exista. Para verificar se a network existe execute:
+> docker network ls
 
+Se a network não existir execute o seguinte comando para criar
+> docker network create alectrion-network
+
+5. Execute o projeto
+    
+> docker-compose up
+
+A aplicação será iniciada na porta 4000.
 ## Contribuir
 Para contribuir com esse projeto é importante seguir nosso [Guia de Contribuição](https://fga-eps-mds.github.io/2022-2-Alectrion-DOC/#/./Documentos/guia-contribuicao.md) do repositório e seguir nossa [Política de Branches](https://fga-eps-mds.github.io/2022-2-Alectrion-DOC/#/./Documentos/Documentos/politicas-branch.md).
 
