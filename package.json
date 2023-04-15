@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/main.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
     "test": "cross-env NODE_ENV=test jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "npm t -- --watch",
