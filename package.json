@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev src/main.ts",
+    "start": "ts-node src/main.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
     "test": "cross-env NODE_ENV=test jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "npm t -- --watch",
@@ -59,6 +59,7 @@
     "express": "^4.18.1",
     "express-http-proxy": "^1.6.3",
     "http-proxy": "^1.18.1",
-    "supertest": "^6.2.4"
+    "supertest": "^6.2.4",
+    "ts-node": "^10.9.1"
   }
 }
