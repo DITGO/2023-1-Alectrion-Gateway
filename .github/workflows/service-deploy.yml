@@ -18,10 +18,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "alectrion-gateway-2023"
           heroku_email: ${{secrets.HEROKU_EMAIL}}
-          usedocker: true
-          docker_build_args: |
-            USER_API_URL
-            EQUIP_API_URL
+          usedocker: false
         env:
           USER_API_URL: ${{ secrets.USER_API_URL }}
           EQUIP_API_URL: ${{ secrets.EQUIP_API_URL }}
