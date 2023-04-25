@@ -24,7 +24,7 @@ Aplicação disponível em: https://alectrion-2023.herokuapp.com
 
 2. Entre na pasta do projeto
 
-> cd 2022-2-Alectrion-Gateway
+> cd 2023-1-Alectrion-Gateway
 
 3. Crie um arquivo .env(variaveis de exemplo no .env.example deste repositório) adicionando as URL para os serviços
  UserApi e EquipamentApi.
