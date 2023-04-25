@@ -55,7 +55,7 @@ Para contribuir com esse projeto é importante seguir nosso Guia de Contribuiç�
 
 ## Ambientes
 
-- [Pages](https://fga-eps-mds.github.io/2023-1-Alectrion-DOC/)
+- [Pages](https://fga-eps-mds.github.io/2023-1-Alectrion-DOC/) (pendente)
 
 - [Documentação](https://github.com/fga-eps-mds/2023-1-Alectrion-DOC)
 
